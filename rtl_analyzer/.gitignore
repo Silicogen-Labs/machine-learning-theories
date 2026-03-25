@@ -2,3 +2,9 @@ datasets/llm/kaggle/*.zip
 datasets/llm/kaggle/
 *.pyc
 *.pt
+*.jsonl
+*.jsonl.gz
+*.part.*
+.opencode/
+docs/
+.claude

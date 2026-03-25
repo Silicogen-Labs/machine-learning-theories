@@ -1,4 +1,3 @@
-datasets/llm/*.jsonl
 datasets/llm/kaggle/*.zip
 datasets/llm/kaggle/
 *.pyc

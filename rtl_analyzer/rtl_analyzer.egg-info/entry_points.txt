@@ -1,0 +1,2 @@
+[console_scripts]
+rtl-check = rtl_analyzer.cli:main

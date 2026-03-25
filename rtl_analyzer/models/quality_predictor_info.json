@@ -1,0 +1,36 @@
+{
+  "model": "QualityPredictor",
+  "type": "multi-task",
+  "tasks": [
+    "complexity",
+    "maintainability",
+    "quality_score",
+    "quality_category"
+  ],
+  "input_dim": 10,
+  "feature_columns": [
+    "always_block_count",
+    "always_ff_count",
+    "always_comb_count",
+    "assign_count",
+    "module_count",
+    "line_count",
+    "parse_error_count",
+    "dataflow_node_count",
+    "dataflow_cycle_count",
+    "dataflow_error"
+  ],
+  "category_labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "metrics": {
+    "complexity_rmse": 83.88311482727022,
+    "maintainability_rmse": 234.20619754556026,
+    "quality_rmse": 78.72715752541336,
+    "category_accuracy": 49.30555555555556,
+    "category_f1": 0.3256459948320414
+  },
+  "device": "cuda"
+}

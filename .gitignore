@@ -1,9 +1,10 @@
 .worktrees/
+.worktrees/
 rtl_analyzer/.worktrees
 .claude/
 .opencode/
 tooling_insights.md
 .claude/
-# local/generated dirs
-rtl_analyzer/.worktrees/
-rtl_analyzer/.pytest_cache/
+/home/jovyan/silicogen/.claude/
+/home/jovyan/silicogen/.opencode/
+/home/jovyan/silicogen/docs

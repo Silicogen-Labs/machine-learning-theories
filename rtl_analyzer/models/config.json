@@ -1,0 +1,19 @@
+{
+  "feature_names": [
+    "always_block_count",
+    "always_ff_count",
+    "always_comb_count",
+    "assign_count",
+    "module_count",
+    "line_count",
+    "parse_error_count",
+    "dataflow_node_count",
+    "dataflow_cycle_count",
+    "dataflow_error"
+  ],
+  "labels": [
+    "clean",
+    "buggy"
+  ],
+  "device": "cuda"
+}

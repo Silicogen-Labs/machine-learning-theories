@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: rtl-analyzer
+Version: 0.1.0
+Summary: General-purpose RTL static analysis engine for Verilog/SystemVerilog. Layer 1: deterministic bug detection.
+Requires-Python: >=3.10
+Requires-Dist: pyslang>=9.0
+Requires-Dist: pyverilog>=1.3
+Requires-Dist: rich>=13.0
+Requires-Dist: click>=8.1
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"

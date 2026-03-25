@@ -4,3 +4,6 @@ rtl_analyzer/.worktrees
 .opencode/
 tooling_insights.md
 .claude/
+# local/generated dirs
+rtl_analyzer/.worktrees/
+rtl_analyzer/.pytest_cache/
